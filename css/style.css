@@ -163,11 +163,9 @@ section.connection.center {
     padding-right: 100px;
     text-align: center;
 }
-.goals {
+h2 .goals {
     color: #C6D9B9;
     text-align: center;
     font-weight: bold;
     font-size: 32px;
-    border-style: none;
-    border-color: none;
 }
