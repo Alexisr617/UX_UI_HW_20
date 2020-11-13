@@ -51,6 +51,7 @@ header p {
 
 .jumbotron{ 
     background-color: #DFAA99;
+    padding: 100px;
 }
 .content {
     width: 100%;
@@ -73,6 +74,8 @@ h2 {
 color: #C6D9B9;
 text-align: center;
 font-weight: bold;
+border-style: solid;
+border-color: #80BDD9;
 }
 
 p {
@@ -96,7 +99,8 @@ h3 {
     max-width: 100%;
     height: auto;
     padding-left: 100px;
-    padding-right: 100px;  
+    padding-right: 100px;
+    text-align: center;  
 }
 .user-testing {
     padding-left: 100px;
@@ -111,35 +115,28 @@ img {
     height: auto;
     text-align: center;
 }
-button {
-    padding: 10px;
-    color: white;
-    font-size: 15px;
-    border-radius: 4px;
-    border: none;
-    display: center;
-    border: none; 
-    text-align: center;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-}
-
 .blue {
     background-color: #80BDD9;
-    border-style: none; 
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+a .blue {
+    text-align: center;
 }
-button.blue:hover {
+.blue:hover {
     background-color: #DFAA99;
-}
+    color: white;
+  }
 
-footer {
+  footer {
     padding: 50px;
     color: white;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #C6D9B9;
   }
 footer ul {
     list-style: none;
@@ -160,4 +157,9 @@ section.connection.center {
   }
 .footer-item-title {
     color: black;
+}
+.round-one-img {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
