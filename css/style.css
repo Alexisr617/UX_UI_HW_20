@@ -163,3 +163,8 @@ section.connection.center {
     padding-right: 100px;
     text-align: center;
 }
+.h2 {
+    color: #C6D9B9;
+text-align: center;
+font-weight: bold;
+}
